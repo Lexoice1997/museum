@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Forum&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
+  <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet'/>
+  <script type="text/javascript" nonce="1ff27025096f4f8e99b2da53472" src="//local.adguard.org?ts=1646236367484&amp;type=content-script&amp;dmn=swiperjs.com&amp;css=1&amp;js=1&amp;gcss=1&amp;rel=1&amp;rji=1"></script>
+  <script type="text/javascript" nonce="1ff27025096f4f8e99b2da53472" src="//local.adguard.org?ts=1646236367484&amp;name=AdGuard%20Popup%20Blocker%20%28Beta%29&amp;name=AdGuard%20Assistant%20%28Beta%29&amp;name=AdGuard%20Extra%20%28Beta%29&amp;type=user-script"></script><link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+  />
+  <link rel="icon" href="assets/favicon.ico">
+  <title>museum</title>
+  <script src="./js/mapbox.js" defer></script>
+</head>
+<body>
+<header>
+  <div class="container header-container">
+    <div class="logo">
+      <img src="assets/svg/Logo.svg" alt="Logo">
+      <span class="logo-span">Louvre</span>
+    </div>
+
+    <nav>
+      <ul>
+        <li>
+          <a href="#visiting">Visiting </a>
+        </li>
+        <li>
+          <a href="#explore">Explore</a>
+        </li>
+        <li>
+          <a href="#video">Video</a>
+        </li>
+        <li>
+          <a href="#gallery">Gallery</a>
+        </li>
+        <li>
+          <a href="#tickets">Tickets</a>
+        </li>
+        <li>
+          <a href="#contacts">Contacts</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="Welcome">
+    <div class="container">
+      <div class="back-img">
+        <div class="section-title">
+          <h1>Welcome<br>To The Louvre</h1>
+          <p>From the castle to the museum</p>
+
+            <a href="tours/tour1.html" target="_blank">
+              <div class="welcome-btn">Discover the Louvre</div>
+            </a>
+        </div>
+
+        <div id="slider" class="slider">
+          <div class="wrapper mySwiper">
+            <div id="slides" class="slides swiper-wrapper">
+              <div class="swiper-slide">
+                <img class="slide" src="./assets/img/welcome-slider/1.jpg" alt="Welcome-sliders-photo">
+              </div>
+<!--              <div class="swiper-slide">-->
+<!--                <img class="slide swiper-slide" src="./assets/img/welcome-slider/2.jpg" alt="Welcome-sliders-photo">-->
+<!--              </div>-->
+<!--              <div class="swiper-slide">-->
+<!--                <img class="slide swiper-slide" src="./assets/img/welcome-slider/3.jpg" alt="Welcome-sliders-photo">-->
+<!--              </div>-->
+<!--              <div class="swiper-slide">-->
+<!--                <img class="slide swiper-slide" src="./assets/img/welcome-slider/4.jpg" alt="Welcome-sliders-photo">-->
+<!--              </div>-->
+<!--              <div class="swiper-slide">-->
+<!--                <img class="slide swiper-slide" src="./assets/img/welcome-slider/5.jpg" alt="Welcome-sliders-photo">-->
+<!--              </div>-->
+            </div>
+          </div>
+
+<!--          <div class="slider-pagination">-->
+<!--&lt;!&ndash;            <div class="slider-pagination-number">&ndash;&gt;-->
+<!--&lt;!&ndash;              <span id="current">01</span>&ndash;&gt;-->
+<!--&lt;!&ndash;              <span> | </span>&ndash;&gt;-->
+<!--&lt;!&ndash;              <span id="totalCount">05</span>&ndash;&gt;-->
+<!--&lt;!&ndash;            </div>&ndash;&gt;-->
+
+<!--            <div class="swiper-pagination">-->
+<!--&lt;!&ndash;            <div class="swiper-pagination">&ndash;&gt;-->
+
+<!--            </div>-->
+
+<!--&lt;!&ndash;            <ul class="dots">&ndash;&gt;-->
+<!--&lt;!&ndash;              <li class="dot" data-slide-to="1"></li>&ndash;&gt;-->
+<!--&lt;!&ndash;              <li class="dot" data-slide-to="2"></li>&ndash;&gt;-->
+<!--&lt;!&ndash;              <li class="dot" data-slide-to="3"></li>&ndash;&gt;-->
+<!--&lt;!&ndash;              <li class="dot" data-slide-to="4"></li>&ndash;&gt;-->
+<!--&lt;!&ndash;              <li class="dot" data-slide-to="5"></li>&ndash;&gt;-->
+<!--&lt;!&ndash;            </ul>&ndash;&gt;-->
+
+<!--            <div class="arrows">-->
+<!--              <div class="swiper-button-next"></div>-->
+<!--              <div class="swiper-button-prev"></div>-->
+<!--&lt;!&ndash;              <img id="prev"  src="assets/img/arrows/arrow-left.png" alt="left-arrow">&ndash;&gt;-->
+<!--&lt;!&ndash;              <img id="next"  src="assets/img/arrows/arrow-right.png" alt="right-arrow">&ndash;&gt;-->
+<!--            </div>-->
+<!--          </div>-->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="Visiting" id="visiting">
+    <div class="container">
+      <h2>Virtual tour</h2>
+      <div class="line"></div>
+
+      <div class="visiting-containers">
+        <div class="visiting-containers_item">
+          <a href="tours/tour2.html" target="_blank">
+            <img src="assets/img/tour/1.jpg" alt="Royal Palace">
+          </a>
+          <h3>Royal Palace</h3>
+          <div class="line-tour"></div>
+          <p>360° Virtual Tour</p>
+          <p>Google Street Panorama View</p>
+        </div>
+
+        <div class="visiting-containers_item">
+          <a href="tours/tour3.html" target="_blank">
+            <img src="assets/img/tour/2.jpg" alt="Denon wing">
+          </a>
+          <h3>Denon wing</h3>
+          <div class="line-tour"></div>
+          <p>360° Virtual Tour</p>
+          <p>Google Street Panorama View</p>
+        </div>
+
+        <div class="visiting-containers_item">
+          <a href="tours/tour4.html" target="_blank">
+            <img src="assets/img/tour/3.jpg" alt="Colonnade perrault">
+          </a>
+          <h3>Colonnade perrault</h3>
+          <div class="line-tour"></div>
+          <p>360° Virtual Tour</p>
+          <p>Google Street Panorama View</p>
+        </div>
+
+        <div class="visiting-containers_item">
+          <a href="tours/tour5.html" target="_blank">
+            <img src="assets/img/tour/4.jpg" alt="Greek Hall">
+          </a>
+          <h3>Greek Hall</h3>
+          <div class="line-tour"></div>
+          <p>360° Virtual Tour</p>
+          <p>Google Street Panorama View</p>
+        </div>
+
+        <div class="visiting-containers_item">
+          <a href="tours/tour6.html" target="_blank">
+            <img src="assets/img/tour/5.jpg" alt="Mona Lisa">
+          </a>
+          <h3>Mona Lisa</h3>
+          <div class="line-tour"></div>
+          <p>360° Virtual Tour</p>
+          <p>Google Street Panorama View</p>
+        </div>
+
+        <div class="visiting-containers_item">
+          <a href="tours/tour7.html" target="_blank">
+            <img src="assets/img/tour/6.jpg" alt="Night Palace">
+          </a>
+          <h3>Night Palace</h3>
+          <div class="line-tour"></div>
+          <p>360° Virtual Tour</p>
+          <p>Google Street Panorama View</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="Explore" id="explore">
+    <div class="container explore-items">
+      <div>
+        <h2>Picture explore</h2>
+        <div class="line"></div>
+        <p>Las Meninas is a 1656 painting by Diego Velázquez, the leading artist of the Spanish Golden Age.</p>
+        <p>It was cleaned in 1984 to remove a <span>"yellow veil"</span> of dust that had gathered since the
+          previous restoration in
+          the 19th century.</p>
+        <p>The cleaning provoked furious protests, not because the picture had been damaged in any way, but
+          because it
+          looked different.</p>
+      </div>
+
+      <div class="img-comp-container">
+        <div class="img-comp-img">
+          <img src="assets/img/explore-slider/before.jpg">
+        </div>
+        <div class="img-comp-img img-comp-overlay">
+          <img src="assets/img/explore-slider/after.jpg">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="Video" id="video">
+    <div class="container">
+      <div class="video-header">
+        <h2>Video Journey</h2>
+        <p>Enter and visit one of the most famous museums in the world and enjoy masterpieces such as Mona Lisa
+          or
+          Hammurabi's Code</p>
+      </div>
+
+      <div class="video-content">
+        <video id="video-player" src="assets/video/video0.mp4" poster="assets/img/poster/poster0.jpg"></video>
+        <div class="video-content__play">
+          <img id="play-button" src="assets/img/poster/video-play.png" alt="video-play">
+        </div>
+        <div class="video-content__controls">
+          <div class="video-content__controls-play">
+            <img id="play-btn" src="assets/img/poster/play.png" alt="playButton">
+            <img id="pause" class="display-none" src="assets/img/poster/pause.png" alt="pauseButton">
+          </div>
+
+          <div class="video-content__controls-duration">
+            <input id="progressVideo" type="range" value="0" min="0" max="100" step="1" class="progress progress-first">
+          </div>
+
+          <div class="video-content__controls-volume">
+            <img id="volume" src="assets/img/poster/volume.png" alt="Volume">
+            <img id="mute" class="display-none" src="assets/img/poster/mute.png" alt="mute">
+          </div>
+
+          <div class="video-content__controls-valume-ctrl">
+            <input id="volume-ctrl" type="range" value="100" min="0" max="100" step="1" class="progress progress-second">
+          </div>
+
+          <div class="video-content__controls-fullscreen">
+            <img id="fullscreen" src="assets/img/poster/fullscreen.png" alt="FullScreen">
+          </div>
+        </div>
+      </div>
+
+      <div class="video-slider">
+        <iframe loading="lazy" src="https://www.youtube.com/embed/zp1BXPX8jcU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe loading="lazy" src="https://www.youtube.com/embed/Vi5D6FKhRmo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe loading="lazy" src="https://www.youtube.com/embed/NOhDysLnTvY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
+      <div class="video-dots">
+        <div class="video-dots__prev">
+          <img width="10" height="12" src="./assets/img/poster/left.png" alt="leftStroke">
+        </div>
+
+        <ul>
+          <li class="video-dots__dot"></li>
+          <li class="video-dots__dot"></li>
+          <li class="video-dots__dot"></li>
+          <li class="video-dots__dot"></li>
+          <li class="video-dots__dot"></li>
+        </ul>
+
+        <div class="video-dots__next">
+          <img width="10" height="12" src="./assets/img/poster/right.png" alt="leftStroke">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="Gallery" id="gallery">
+    <div class="container">
+      <h2>Art gallery</h2>
+
+      <div class="picture-container">
+        <div class="picture-inner-container">
+
+        </div>
+        <div class="background-col"></div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="Tickets" id="tickets">
+    <div class="container">
+      <h2>Buy tickets</h2>
+
+      <div class="line"></div>
+
+      <div class="tickets-items">
+        <img src="assets/img/tour/7.jpg" alt="Tickets">
+
+        <div class="tickets-types">
+          <h4>Ticket Type</h4>
+          <label class="container-input">Permanent exhibition
+            <input id="permanent" type="radio" checked="checked" name="radio">
+            <span class="checkmark"></span>
+          </label>
+          <label class="container-input">Temporary exhibition
+            <input id="temporary" type="radio" name="radio">
+            <span class="checkmark"></span>
+          </label>
+          <label class="container-input">Combined Admission
+            <input id="combined" type="radio" name="radio">
+            <span class="checkmark"></span>
+          </label>
+        </div>
+
+          <div class="tickets-amount">
+            <h4>Amount</h4>
+
+            <p>Basic 18+</p>
+
+            <div class="tickets-amount-count">
+              <button id="basic-count-plus" class="tickets-amount__btn" type="button" onclick="this.nextElementSibling.stepDown()">-</button>
+              <input type="number" min="0" max="20" value="1" readonly class="number number-basic">
+              <button id="basic-count-minus" class="tickets-amount__btn" type="button" onclick="this.previousElementSibling.stepUp()">+</button>
+            </div>
+
+            <p>Senior 65+</p>
+
+            <div class="tickets-amount-count">
+              <button id="senior-count-plus" class="tickets-amount__btn" type="button" onclick="this.nextElementSibling.stepDown()">-</button>
+              <input type="number" min="0" max="20" value="1" readonly class="number number-senior">
+              <button id="senior-count-minus" class="tickets-amount__btn" type="button" onclick="this.previousElementSibling.stepUp()">+</button>
+            </div>
+
+            <h4 id="total">Total €220</h4>
+
+            <button class="buy-now">Buy Now</button>
+          </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="Parallax">
+  </div>
+
+  <section class="Contacts" id="contacts">
+    <div class="container">
+      <h2>Contacts</h2>
+      <div class="line"></div>
+
+      <div class="contacts-items">
+        <div>
+          <h4>Palais Royal Musee du Louvre</h4>
+          <p>address: 75001 Paris, France</p>
+          <p><a href="tel:+33(0)140205050">phone: +33(0) 1 40 20 50 50</a></p>
+          <p><a href="mailto:info@louvre.fr">mail: info@louvre.fr</a></p>
+        </div>
+
+        <div id='map'></div>
+
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-body container">
+    <div class="footer-body__left">
+      <div class="footer-logo">
+        <img src="assets/svg/Logo.svg" alt="Logo">
+        <h3>Louvre</h3>
+      </div>
+
+      <ul>
+        <li>Visiting</li>
+        <li>Explore</li>
+        <li>Video</li>
+      </ul>
+      <ul>
+        <li>Gallery</li>
+        <li>Tickets</li>
+        <li>Contacts</li>
+      </ul>
+    </div>
+
+    <div class="footer-icons">
+      <ul>
+        <li><a href="#"><img src="assets/svg/youtube.svg" alt="youtube"></a></li>
+        <li><a href="#"><img src="assets/svg/insta.svg" alt="insta"></a></li>
+        <li><a href="#"><img src="assets/svg/facebook.svg" alt="facebook"></a></li>
+        <li><a href="#"><img src="assets/svg/twitter.svg" alt="twitter"></a></li>
+        <li><a href="#"><img src="assets/svg/pinterest.svg" alt="pinterest"></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-line"></div>
+
+  <div class="footer-foot container">
+    <p>2021</p>
+    <p>The Rolling Scopes School</p>
+    <p>Lexoice1997</p>
+  </div>
+</footer>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    slidesPerView: 1,
+  });
+</script>
+<script src="index.js"></script>
+</body>
+</html>
